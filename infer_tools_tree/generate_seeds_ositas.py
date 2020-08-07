@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # @Time    : 04/08/2020 18:55
-# @Author  : BubblyYi
+# @Author  : BubblyYi、QYD
 # @FileName: centerline_net.py
 # @Software: PyCharm
 import numpy as np

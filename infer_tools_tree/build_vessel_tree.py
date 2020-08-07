@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # @Time    : 04/08/2020 17:43
-# @Author  : BubblyYi
+# @Author  : BubblyYi、QYD
 # @FileName: build_vessel_tree.py
 # @Software: PyCharm
 import numpy as np
