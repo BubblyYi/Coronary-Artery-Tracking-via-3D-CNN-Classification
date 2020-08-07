@@ -41,7 +41,7 @@ The architecture of seedspint_net and ostiapoint_net are very similar to centerl
 
 # Preparing Environmental
 ```bash
-$ pip install requirement.txt
+$ pip install -r requirement.txt
 ```
 # Training
 
