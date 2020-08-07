@@ -32,7 +32,7 @@ The third network is responsible for placing seed points in the image
 | Channels | 32 | 32 | 32 | 32 | 64 | 64 | D+1 |
 | Field width | 3 | 5 | 9 | 17 | 19 | 19 | 19 |
 
-``` bash
+```
 The number of output channels is equal to the number of potential directions in D, plus one channel for radius estimation.
 
 The architecture of seedspint_net and ostiapoint_net are very similar to centerline_net. The only difference is in the output layer: instead of combining classiﬁcation and regression, the ﬁnal layer only performs regression.
