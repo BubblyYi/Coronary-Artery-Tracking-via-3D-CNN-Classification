@@ -1,0 +1,6 @@
+Accuracy AD: 0.365915,score: 34.3251
+Accuracy AI: 0.333389,score: 34.6081
+Accuracy AT: 0.333210,score: 34.5691
+Overlap OV: 0.988593, score: 49.5687
+Overlap OF: 0.999866, score: 100.0000
+Overlap OT: 1.000000, score: 100.0000

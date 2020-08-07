@@ -1,0 +1,14 @@
+# Replace the path to your current storage path
+checkpoint_path_infer: /checkpoint/classification_checkpoints/centerline_net_model_s1.pkl
+checkpoint_path_ostia: /checkpoint/ostia_checkpoints/ostiapoints_net_model_s1.pkl
+checkpoint_path_seeds: /checkpoint/seeds_checkpoints/seedspoints_net_model_s1.pkl
+file_name: /data_process_tools/train_data/dataset01/image01.mhd
+reference_path: /data_process_tools/train_data/dataset01
+seeds_gen_info_to_save: result/result01/seeds_ostias_res
+ostias_gen_info_to_save: result/result01/seeds_ostias_res
+infer_line_to_save: result/result01/vessel_res
+fig_to_save: result/result01/fig_res
+max_points: 500
+gpuid: 7
+prob_thr: 0.85
+max_size: [200,10]
