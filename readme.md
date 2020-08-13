@@ -1,6 +1,8 @@
 # Coronary Artery Tracking via 3D CNN Classification Pytorch
 
-The pytorch re-implement of the method in the paper '_Coronary artery centerline extraction in cardiac CT angiography using a CNN-based orientation classiﬁer_', original paper link: https://www.sciencedirect.com/science/article/abs/pii/S1361841518308491
+The PyTorch re-implement of a 3D CNN Tracker to extract coronary artery centerlines with state-of-the-art (SOTA) performance. (paper: '_Coronary artery centerline extraction in cardiac CT angiography using a CNN-based orientation classiﬁer_')
+
+paper link: https://www.sciencedirect.com/science/article/abs/pii/S1361841518308491
 
 # Key idea
 ```
