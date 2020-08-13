@@ -36,7 +36,6 @@ if __name__ == '__main__':
     curr_model_name = "ostiapoints_net"
     model = OstiapointsNet()
 
-    # 参数设定
     batch_size = 64
     num_workers = 16
 

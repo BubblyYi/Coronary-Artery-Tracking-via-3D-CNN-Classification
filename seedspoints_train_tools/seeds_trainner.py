@@ -77,7 +77,6 @@ class Trainer(object):
 
         return train_loss / len(self.train_loader)
 
-    # 验证模型
     def val_step(self, epoch):
         self.model.eval()
         test_loss = 0.
