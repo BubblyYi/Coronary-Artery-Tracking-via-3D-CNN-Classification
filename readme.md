@@ -51,7 +51,7 @@ $ pip install -r requirement.txt
 
 tips: CAT08 datasets need to be registered and certified in the website(http://coronary.bigr.nl/centerlines/) before it can be downloaded
 
-It should be noted that your registration application email may not be not be received by the server of the above website. 
+It should be noted that your registration application email may not be received by the server of the above website. 
 
 If you have this problem, please contact the Dr.Theo van Walsum(t.vanwalsum@erasmusmc.nl)
 
