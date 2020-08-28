@@ -91,7 +91,6 @@ class Trainer(object):
 
         return train_loss / len(self.train_loader), 1. - correct / total, train_direction_loss/ len(self.train_loader),train_radius_loss/ len(self.train_loader)
 
-    # 验证模型
     def val_step(self, epoch):
         self.model.eval()
         test_loss = 0.
@@ -152,24 +151,24 @@ class Trainer(object):
         plt.plot(x_epoch, self.all_tr_direction_loss, color="b", linestyle="--", marker="*", label='train')
         plt.plot(x_epoch, self.all_val_direction_loss, color="r", linestyle="--", marker="*", label='val')
         plt.legend()
-        plt.rcParams['savefig.dpi'] = 300 #图片像素"
-        plt.rcParams['figure.dpi'] = 300 #分辨率"
+        plt.rcParams['savefig.dpi'] = 300
+        plt.rcParams['figure.dpi'] = 300
         plt.savefig("Direction_loss_"+str(self.save_num)+".jpg")
         plt.close()
 
         plt.plot(x_epoch, self.all_tr_radius_loss, color="b", linestyle="--", marker="*", label='train')
         plt.plot(x_epoch, self.all_val_radius_loss, color="r", linestyle="--", marker="*", label='val')
         plt.legend()
-        plt.rcParams['savefig.dpi'] = 300  # 图片像素"
-        plt.rcParams['figure.dpi'] = 300  # 分辨率"
+        plt.rcParams['savefig.dpi'] = 300
+        plt.rcParams['figure.dpi'] = 300
         plt.savefig("Radius_loss_s"+str(self.save_num)+".jpg")
         plt.close()
 
         plt.plot(x_epoch, self.all_tr_loss, color="b", linestyle="--", marker="*", label='train')
         plt.plot(x_epoch, self.all_val_loss, color="r", linestyle="--", marker="*", label='val')
         plt.legend()
-        plt.rcParams['savefig.dpi'] = 300  # 图片像素"
-        plt.rcParams['figure.dpi'] = 300  # 分辨率"
+        plt.rcParams['savefig.dpi'] = 300
+        plt.rcParams['figure.dpi'] = 300
         plt.savefig("Total_loss"+str(self.save_num)+".jpg")
         plt.close()
 

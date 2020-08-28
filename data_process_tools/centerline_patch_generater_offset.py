@@ -128,7 +128,6 @@ def creat_data(max_points,path_name,spacing_path,gap_size,save_num):
                             shell_arr[s_ind][2] = sz[s_ind]
 
                         pre_ind, next_ind = get_pre_next_point_ind(center, radials_data, new_radial_ind)
-                        # 只有找到了前一个点和后一个点才进入切割流程
                         if pre_ind != -1 and next_ind != -1:
 
 

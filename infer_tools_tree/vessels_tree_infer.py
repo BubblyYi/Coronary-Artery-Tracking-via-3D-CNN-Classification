@@ -62,8 +62,8 @@ else:
     ax.set_ylabel('Y')
     ax.set_zlabel('Z')
     ax.legend()
-    plt.rcParams['savefig.dpi'] = 300  # 图片像素
-    plt.rcParams['figure.dpi'] = 300  # 分辨率
+    plt.rcParams['savefig.dpi'] = 300
+    plt.rcParams['figure.dpi'] = 300
     plt.savefig(fig_to_save + "/infer_tree_new.jpg")
     ax1 = plt.axes(projection='3d')
     for i in range(4):
@@ -75,8 +75,8 @@ else:
     ax1.set_ylabel('Y')
     ax1.set_zlabel('Z')
     ax1.legend()
-    plt.rcParams['savefig.dpi'] = 300  # 图片像素"
-    plt.rcParams['figure.dpi'] = 300  # 分辨率"
+    plt.rcParams['savefig.dpi'] = 300
+    plt.rcParams['figure.dpi'] = 300
     plt.savefig(fig_to_save + '/refer_infer_tree.jpg')
     ax2 = plt.axes(projection='3d')
     for i in range(4):
@@ -86,8 +86,8 @@ else:
     ax2.set_ylabel('Y')
     ax2.set_zlabel('Z')
     ax2.legend()
-    plt.rcParams['savefig.dpi'] = 300  # 图片像素
-    plt.rcParams['figure.dpi'] = 300  # 分辨率
+    plt.rcParams['savefig.dpi'] = 300
+    plt.rcParams['figure.dpi'] = 300
     plt.savefig(fig_to_save + '/refer_tree.jpg')
 
     ax3 = plt.axes(projection='3d')
@@ -97,8 +97,8 @@ else:
     ax3.set_ylabel('Y')
     ax3.set_zlabel('Z')
     ax3.legend()
-    plt.rcParams['savefig.dpi'] = 300  # 图片像素"
-    plt.rcParams['figure.dpi'] = 300  # 分辨率"
+    plt.rcParams['savefig.dpi'] = 300
+    plt.rcParams['figure.dpi'] = 300
     plt.savefig(
         fig_to_save + '/seeds_points.jpg')
 
@@ -112,7 +112,7 @@ else:
     ax4.set_ylabel('Y')
     ax4.set_zlabel('Z')
     ax4.legend()
-    plt.rcParams['savefig.dpi'] = 300  # 图片像素"
-    plt.rcParams['figure.dpi'] = 300  # 分辨率"
+    plt.rcParams['savefig.dpi'] = 300
+    plt.rcParams['figure.dpi'] = 300
     plt.savefig(
         fig_to_save + "/seeds_points.jpg")

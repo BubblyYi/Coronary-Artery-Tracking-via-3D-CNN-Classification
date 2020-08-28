@@ -12,7 +12,7 @@ def search_seeds_ostias(max_size=(200, 10)):
     '''
     find seeds points arr and ostia points arr
     :param max_size: The first max_size[0] seed points and the first max_size[1] ostia points were selected
-    :return: 种子点list和入口点list
+    :return:
     '''
     print("search seeds and ostias")
     spacing_x = spacing[0]
