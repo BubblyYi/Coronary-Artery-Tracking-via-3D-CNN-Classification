@@ -182,7 +182,7 @@ def search_one_direction(start: list, move_direction: list, prob_records: list, 
                          root: TreeNode, find_node=None):
     """
     :param start: start point
-    :param move_direction: 上一次的移动方向 last move direction
+    :param move_direction: last move direction
     :param prob_records: record of termination probability
     :param point_list:
     :param r_list: radius arr
