@@ -58,7 +58,7 @@ If you have this problem, please contact the Dr.Theo van Walsum(t.vanwalsum@eras
 1. Unzip training.tar.gz to 
     Coronary-Artery-Tracking-via-3D-CNN-Classification/
             -data_process_tools/
-                -training_data/
+                -train_data/
                     -dataset00/
                     -dataset01/
                     -dataset02/
