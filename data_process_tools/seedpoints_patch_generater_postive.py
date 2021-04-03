@@ -39,7 +39,7 @@ def creat_data(path_name,spacing_path,gap_size,save_num):
 
     vessels = []
     for j in range(4):
-        reference_path = '/data_process_tools/train_data/dataset0'+str(i)+'/vessel' + str(j) + '/reference.txt'
+        reference_path = './train_data/dataset0'+str(i)+'/vessel' + str(j) + '/reference.txt'
         txt_data = np.loadtxt(reference_path, dtype=np.float32)
         temp_center = txt_data[..., 0:3]
         vessels.append(temp_center)
