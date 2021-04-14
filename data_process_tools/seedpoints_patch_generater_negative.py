@@ -31,7 +31,7 @@ def creat_data(path_name,spacing_path,save_num,cut_size = 19,move_step = 3):
                                                            np.array([1, 1, 1]))
     vessels = []
     for j in range(4):
-        reference_path = '/data_process_tools/train_data/dataset0'+str(i)+'/vessel' + str(j) + '/reference.txt'
+        reference_path = './train_data/dataset0'+str(i)+'/vessel' + str(j) + '/reference.txt'
         txt_data = np.loadtxt(reference_path, dtype=np.float32)
         center = txt_data[..., 0:3]
         vessels.append(center)
