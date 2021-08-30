@@ -199,7 +199,7 @@ def search_one_direction(start: list, move_direction: list, prob_records: list, 
             prob_records.pop(0)
             prob_records.append(curr_prob)
             prob_mean = sum(prob_records) / len(prob_records)
-            move_direction, next_point = move(start=start, shell_arr=shell_arr, indexs=indexs,
+            move_direction, start = move(start=start, shell_arr=shell_arr, indexs=indexs,
                                          move_direction=move_direction)
             if find_node is None:
                 find_node_initial = search_tree(root, next_point)
